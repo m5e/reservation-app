@@ -1,6 +1,6 @@
 # ReservationApp
 
-Angular × bootstrap4
+Angular９ × bootstrap4
 
 ## Development server
 
