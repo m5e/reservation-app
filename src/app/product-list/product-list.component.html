@@ -1,7 +1,7 @@
 <div class="container">
   <br>
   <div class="row">
-    <div class="col-sm">
+    <div class="col-sm" *ngFor="let product of products">
         <div class="card">
           <img src="./assets/img/placeholder-300-22.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -13,42 +13,3 @@
           </div>
         </div>
     </div>
-    <div class="col-sm">
-      <div class="card">
-        <img src="./assets/img/placeholder-300-22.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <button class="btn btn-link" routerLink="detail">
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-          </p>
-          </button>
-        </div>
-      </div>
-  </div>
-  <div class="col-sm">
-    <div class="card">
-      <img src="./assets/img/placeholder-300-22.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <button class="btn btn-link" routerLink="detail">
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-        </button>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm">
-    <div class="card">
-      <img src="./assets/img/placeholder-300-22.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <button class="btn btn-link" routerLink="detail">
-        <p class="card-text">
-          Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
