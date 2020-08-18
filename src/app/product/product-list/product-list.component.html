@@ -1,11 +1,11 @@
 <div class="container">
   <br>
   <div class="row">
-    <div class="col-sm" *ngFor="let product of products">
+    <div class="col-sm" *ngFor="let product of products; let productId = index">
         <div class="card">
           <img src="./assets/img/placeholder-300-22.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <button class="btn btn-link" routerLink="detail">
+            <button class="btn btn-link text-decoration-none" [routerLink]="[productId]">
             <p class="card-text">
               Some quick example text to build on the card title and make up the bulk of the card's content.
             </p>
@@ -13,3 +13,5 @@
           </div>
         </div>
     </div>
+  </div>
+</div>
