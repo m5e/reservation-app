@@ -27,4 +27,5 @@ const routes: Routes = [
   providers: [],
   bootstrap: []
 })
+
 export class ProductModule { }
