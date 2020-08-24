@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { products } from 'src/app/products';
+import { products } from '../../products';
 
 @Injectable()
 export class ProductService {
@@ -8,7 +8,7 @@ export class ProductService {
     return products
   }
 
-  getproductById(productId: number){
-    return products[productId]
+  getProductById(prpductId: number) {
+    return products[prpductId];
   }
 }

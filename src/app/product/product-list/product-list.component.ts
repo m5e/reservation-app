@@ -9,12 +9,12 @@ import { ProductService } from '../shared/product.service';
 
 export class ProductListComponent implements OnInit {
 
-  products:any;
+  products: any;
 
-  constructor(private ProductService: ProductService) { }
+  constructor(private productService: ProductService) { }
+
   ngOnInit(): void {
-
-    this.products = this.ProductService.getProducts();
+    this.products = this.productService.getProducts()
   }
 
 }

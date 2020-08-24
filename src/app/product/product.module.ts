@@ -4,7 +4,7 @@ import { ProductDetailComponent } from'./product-detail/product-detail.component
 import { ProductListComponent } from './product-list/product-list.component';
 import { CommonModule } from '@angular/common';
 import { ProductComponent } from './product.component';
-import { ProductService } from './shared/product.service';
+import { ProductService } from '../product/shared/product.service';
 
 const routes: Routes = [
   {
